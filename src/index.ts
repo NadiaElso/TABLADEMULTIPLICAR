@@ -6,8 +6,9 @@ multiplicacion =0;
 let btn = document.getElementById("btn");
 btn.addEventListener("click", () => {
 
-for (let hasta = 0; hasta=hasta.value; hasta++) {
-  multiplicacion =tabla.value*hasta;
-  hasta++;
-  
-}
+  for (let contador:number = 1; contador:number <=hasta; contador:number++){
+    let multiplicacion =tabla.value*contador;
+    console.log(tabla,"x",contador,"=",resultado);
+   
+  }
+
